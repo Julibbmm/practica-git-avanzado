@@ -102,3 +102,16 @@ muestra este comando.
 
 ## ✅ Entrega
 Link de tu repositorio (fork) + pantallazo de "git log --oneline"
+
+
+
+## Versionado Semántico (Semantic Versioning - SemVer)
+
+El versionado semántico es un estándar utilizado en el desarrollo de software para asignar versiones de forma clara según el tipo de cambios que se realizan en el código (`vX.Y.Z`):
+
+* **MAJOR (Número grande - v1.0.0 a v2.0.0):** Se incrementa cuando hay cambios grandes o incompatibles con versiones anteriores (breaking cambios).
+  * *Ejemplo:* Reescribir la arquitectura de la calculadora o cambiar completamente los nombres de las funciones existentes, lo que rompería los programas que dependían de la versión anterior.
+* **MINOR (Número medio - v1.0.0 a v1.1.0):** Se incrementa cuando se agregan nuevas funcionalidades que son totalmente compatibles con la versión actual (no rompen nada).
+  * *Ejemplo:* Agregar una nueva función para calcular la potencia o la raíz cuadrada en `calculadora.py`.
+* **PATCH (Número pequeño - v1.0.0 a v1.0.1):** Se incrementa cuando se corrigen errores (bugs) sin modificar la funcionalidad existente ni romper compatibilidad.
+  * *Ejemplo:* Corregir un mensaje de error ortográfico al intentar dividir entre cero.
